@@ -6,16 +6,17 @@ const INITIAL_STATE = {
         id: 1,
         title: "Iniciando com React",
         lessons: [
-          { id: 1, title: "Primeira Aula" },
-          { id: 2, title: "Segunda Aula" },
+          { id: 1, title: "Aula 1" },
+          { id: 2, title: "Aula 2" },
+          { id: 3, title: "Aula 3" },
         ],
       },
       {
         id: 2,
         title: "Aprendendo Redux",
         lessons: [
-          { id: 3, title: "Terceira Aula" },
-          { id: 4, title: "Quarta Aula" },
+          { id: 4, title: "Aula 4" },
+          { id: 5, title: "Aula 5" },
         ],
       },
     ],

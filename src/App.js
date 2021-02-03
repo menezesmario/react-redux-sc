@@ -7,17 +7,17 @@ import Video from './components/Video'
 import Feed from './components/Feed'
 import CarShop from './components/CarShop'
 
-import { Cursos } from './styles';
+import { Container } from './styles';
 
 
 const App = () => {
   return (
     <div>
       <Provider store={ store }>
-        
+          <Container>
            <Video />
            <Sidebar />
-            
+           </Container>
            <Feed />
            <CarShop />
       </Provider>

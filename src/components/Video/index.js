@@ -2,15 +2,17 @@ import React from "react";
 
 import { connect } from "react-redux";
 
-import { Curso } from '../../styles';
+import { Curso, Section } from '../../styles';
 
 const Video = ({ activeLesson, activeModule }) => {
   return (
+   
     <Curso>
-      <strong>Módulo: {activeModule.title}</strong>
+      <strong>{activeModule.title}</strong>
       <br />
-      <span>Aula: {activeLesson.title}</span>
+      <span>{activeLesson.title}</span>
     </Curso>
+    
     
   );
 };

@@ -1,32 +1,32 @@
 const ESTADO_INICIAL = {
-    roupa: [{}],
+    stack: [{}],
     feed: [
       {
         id: 1,
-        cor: "Azul",
+        cor: "React Avançado",
         tamanho: "M",
-        preco: "15,00",
+        preco: "48,00",
       },
       {
         id: 2,
-        cor: "Vermelho",
+        cor: "Node JS",
         tamanho: "G",
         preco: "50,00",
       },
       {
         id: 3,
-        cor: "Rosa",
+        cor: "Ruby",
         tamanho: "P",
-        preco: "25,00",
+        preco: "68,00",
       },
     ],
   };
   
-  export default function roupas(state = ESTADO_INICIAL, action) {
+  export default function stacks(state = ESTADO_INICIAL, action) {
     if (action.type === "ADICIONAR_CARRINHO") {
       return {
         ...state,
-        roupa: action.roupas,
+        stack: action.stacks,
       };
     }
     return state;

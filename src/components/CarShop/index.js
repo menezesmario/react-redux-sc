@@ -1,15 +1,15 @@
 import React from "react";
 import { connect } from "react-redux";
 
-const CarShop = ({roupa}) => {
+const CarShop = ({stack}) => {
   return (
     <div>
-      <h1>Tamanho do pacote</h1>
-      <strong>{roupa.cor} {roupa.tamanho} {roupa.preco}</strong>
+      <h1>Curso escolhido</h1>
+      <strong>{stack.cor} {stack.preco}</strong>
     </div>
   );
 };
 
 export default connect((state) => ({
-    roupa: state.roupas.roupa
+    stack: state.stacks.stack
 }))(CarShop);
