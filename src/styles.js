@@ -1,9 +1,5 @@
 import styled from 'styled-components';
 
-export const Section = styled.div` 
-    margin: 0;
-    padding: 0;
-`
 
 export const Container = styled.div`
      
@@ -51,7 +47,11 @@ export const ComprarCurso = styled.div`
     font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
     ul {
-        display: flexbox;
         list-style-type: none;
+        padding: 20px;
+    }
+    li {
+        padding: 20px
     }
 `
+

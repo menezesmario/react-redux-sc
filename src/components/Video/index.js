@@ -2,7 +2,7 @@ import React from "react";
 
 import { connect } from "react-redux";
 
-import { Curso, Section } from '../../styles';
+import { Curso } from '../../styles';
 
 const Video = ({ activeLesson, activeModule }) => {
   return (

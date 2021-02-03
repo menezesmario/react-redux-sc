@@ -1,12 +1,13 @@
 import React from "react";
 import { connect } from "react-redux";
+import { ComprarCurso } from "../../styles";
 
 const CarShop = ({stack}) => {
   return (
-    <div>
-      <h1>Curso escolhido</h1>
+    <ComprarCurso>
+      <h3>Curso escolhido</h3>
       <strong>{stack.cor} {stack.preco}</strong>
-    </div>
+    </ComprarCurso>
   );
 };
 
